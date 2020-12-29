@@ -1,0 +1,104 @@
+button.nav-toggle {
+
+  display: block;
+  cursor: pointer;
+  padding: 20px 10px;
+  border: 0px solid #666;
+  position: relative;
+  outline: none !important;
+  background-color: transparent;
+  outline: none;
+
+  &:hover {
+
+    .threelines-dark::before,
+    .threelines-dark::after,
+    .threelines::before,
+    .threelines::after {
+      width: 1.5em;
+      transition: 0.4s;
+    }
+  }
+
+  .threelines,
+  .threelines-dark {
+    display: block;
+    position: relative;
+
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      left: 0;
+    }
+  }
+
+
+  .threelines-dark,
+  .threelines-dark::before,
+  .threelines-dark::after {
+    width: 2em;
+    height: 3px;
+    background-color: rgb(210, 209, 209);
+    transition: 0.5s;
+  }
+
+  .threelines,
+  .threelines::before,
+  .threelines::after {
+    width: 2em;
+    height: 3px;
+    background-color: #eee;
+    transition: 0.5s;
+  }
+
+  .threelines-dark::before,
+  .threelines::before {
+    bottom: 6px;
+  }
+
+  .threelines-dark::after,
+  .threelines::after {
+    top: 6px;
+  }
+
+
+
+}
+
+button.nav-toggle.open {
+  border: 0px solid #999;
+  transition: 1s;
+  z-index: 1000;
+
+  &:hover {
+
+    .threelines-dark::before,
+    .threelines-dark::after,
+    .threelines::before,
+    .threelines::after {
+      width: 2em;
+      transition: 0.4s;
+    }
+  }
+
+  .threelines,
+  .threelines-dark {
+    transition: 0.5s;
+    transform: rotate(45deg);
+  }
+
+  .threelines-dark::before,
+  .threelines::before {
+    transition: 0.5s;
+    transform: rotate(90deg) translate(6px);
+  }
+
+  .threelines-dark::after,
+  .threelines::after {
+    transition: 0.5s;
+    transform: rotate(90deg) translate(-6px);
+    opacity: 0;
+  }
+
+}

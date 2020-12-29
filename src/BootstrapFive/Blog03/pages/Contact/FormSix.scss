@@ -1,0 +1,40 @@
+@keyframes fadeIn {
+ 0% {opacity: 0;}
+ 100%{opacity: 1;}
+}
+
+.form-6{
+  textarea{
+    margin-top: 30px;
+  }
+
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+  }
+
+  .labelShow{
+    display: inline-block;
+    animation: fadeIn 2s;
+    
+  }
+  .labelHide{
+    display: none;
+    transition: display 2s linear 1s;
+  }
+
+
+  
+}

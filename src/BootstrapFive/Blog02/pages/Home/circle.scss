@@ -1,0 +1,73 @@
+$background_dark: 7b797936;
+$background_lighter: #99999942;
+
+@keyframes circle-effect {
+  0% {
+    width: 100px;
+    height: 100px;
+    background: $background_lighter;
+  }
+
+  100% {
+    width: 630px;
+    height: 630px;
+    background: $background_dark;
+  }
+}
+
+
+.circle {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 800px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+
+
+  div:nth-child(1) {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    display: block;
+    background: $background_dark;
+    border-radius: 50px;
+    z-index: 10;
+    left: -15%;
+    top: -15%;
+  }
+
+  div:nth-child(2) {
+    width: 630px;
+    height: 630px;
+    border-radius: 1000px;
+    position: absolute;
+    background-color: $background_lighter;
+    z-index: 1;
+    animation: circle-effect 5s;
+  }
+
+}
+
+.one {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+}
+
+.two {
+  position: fixed;
+  animation-delay: 2s !important;
+  left: 30%;
+  top: 20%;
+}
+
+.three {
+  position: fixed;
+  animation-delay: 4s !important;
+  left: 10%;
+  top: 10%;
+}

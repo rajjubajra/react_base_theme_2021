@@ -1,0 +1,22 @@
+@keyframes fadeOut {
+  0% {opacity: 0;}
+  100%{opacity: 1;}
+}
+
+
+.social-media-sticky{
+
+  .social-media-icon-fixed{  
+    position: fixed;
+    right: 20px !important;
+    height: 350px;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    animation: fadeOut 1s linear;
+  }
+
+ 
+}

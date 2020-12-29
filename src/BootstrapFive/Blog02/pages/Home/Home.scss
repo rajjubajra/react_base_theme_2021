@@ -1,0 +1,31 @@
+.large-font {
+  div {
+    p {
+      font-size: 4rem !important;
+      letter-spacing: -3px;
+    }
+  }
+}
+
+.large-font-mobile {
+  div {
+    p {
+      font-size: 1.5rem !important;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+.medium-font {
+  div {
+    font-size: 2rem !important;
+
+    p {
+      font-size: 2rem !important;
+    }
+  }
+}
+
+.first-big-letter::first-letter {
+  font-size: 3rem;
+}

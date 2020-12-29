@@ -1,0 +1,71 @@
+$width: 1042px;
+$height: 1280px;
+
+.iframe-desktop {
+  display: none;
+}
+
+.Ipad {
+
+  .ipad-horizontal {
+    margin: 100px 0px;
+    position: relative;
+    width: $width;
+    height: $height;
+    padding: 138px 44px;
+
+    div {
+      display: flex;
+      justify-content: center;
+    }
+
+    &::before {
+      content: '';
+      background: url(https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/ipad-147691_1280_1.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: $width;
+      height: $height;
+      display: block;
+      background-color: #ddd;
+    }
+  }
+
+
+  .ipad-verticle {
+    margin: 100px 0px;
+    position: relative;
+    width: $height;
+    height: $width;
+
+    div {
+      position: relative;
+      top: 250px;
+    }
+
+    &::before {
+      content: '';
+      background: url(https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/ipad-147691_1280_1.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: absolute;
+      transform: rotate(90deg);
+      top: 0px;
+      left: 0px;
+      width: $width;
+      height: $height;
+      display: block;
+      background-color: #ddd;
+    }
+
+
+  }
+
+
+
+}

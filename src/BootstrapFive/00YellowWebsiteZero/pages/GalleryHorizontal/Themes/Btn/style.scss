@@ -1,0 +1,35 @@
+.btn-next {
+  position: fixed;
+  right: 115px;
+  bottom: 10px;
+  border: 1px solid #ccc;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+
+
+  &:hover {
+    border: 15px solid #ccc;
+    transition: border 1s;
+    background-color: rgb(3, 3, 3);
+    color: #ffffff;
+  }
+}
+
+.btn-prev {
+  position: fixed;
+  right: 190px;
+  bottom: 10px;
+  border: 1px solid #ccc;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+
+
+  &:hover {
+    border: 15px solid #ccc;
+    transition: border 1s;
+    background-color: rgb(3, 3, 3);
+    color: #ffffff;
+  }
+}

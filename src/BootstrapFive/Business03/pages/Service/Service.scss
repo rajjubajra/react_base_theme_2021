@@ -1,0 +1,21 @@
+.service-card {
+  margin: 5px;
+  border: 1px solid #dddddd7d;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #dddddd7d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    background-color: #a9a9a92e;
+  }
+
+}

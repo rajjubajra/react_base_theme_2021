@@ -1,0 +1,38 @@
+.tour-plan{
+   
+   li{
+     border-radius: 0px !important;
+     font-weight: 100;
+   }
+   
+  ul.list-group{
+    .detail:hover,
+    .ticket:hover{
+      background: #ddd;
+      color: #000;
+      transition: color 1 linear;
+    }
+
+    li:nth-child(1){
+      min-width: 134px;
+    }
+    li:nth-child(2){
+      min-width: 60%;   
+    }
+    li:nth-child(3){
+      min-width: 95px;
+    }
+    li:nth-child(4){
+      min-width: 82px;
+    }
+  } 
+  
+}
+
+.tour-details{
+  .location{
+    p{
+      line-height: 0.2rem;
+    }
+  }
+}

@@ -1,0 +1,103 @@
+.blog-four {
+
+  @import '../../components/ColourMode/BaseColour';
+
+  $zero: 0;
+  $fifty: 50%;
+  $fourHundredTwenty: 420px;
+  $skewY: 10deg;
+  $scaleY: 1.9;
+
+
+
+  .wide-image-white {
+    position: relative;
+    z-index: 1;
+
+    &::before {
+      content: ' ';
+      position: absolute;
+      top: $fourHundredTwenty;
+      bottom: $zero;
+      right: $fifty;
+      left: $zero;
+      transform: skewY($skewY) scaleY($scaleY);
+      background-color: $bgWhite;
+      z-index: 1;
+    }
+
+    &::after {
+      content: ' ';
+      position: absolute;
+      top: $fourHundredTwenty;
+      bottom: $zero;
+      right: $zero;
+      left: $fifty;
+      transform: skewY(-$skewY) scaleY($scaleY);
+      background-color: $bgWhite;
+    }
+
+  }
+
+
+  .wide-image-light {
+    position: relative;
+
+    &::before {
+      content: ' ';
+      position: absolute;
+      top: $fourHundredTwenty;
+      bottom: $zero;
+      right: $fifty;
+      left: $zero;
+      transform: skewY($skewY) scaleY($scaleY);
+      background-color: $bgLight;
+    }
+
+    &::after {
+      content: ' ';
+      position: absolute;
+      top: $fourHundredTwenty;
+      bottom: $zero;
+      right: $zero;
+      left: $fifty;
+      transform: skewY(-$skewY) scaleY($scaleY);
+      background-color: $bgLight;
+    }
+
+  }
+
+
+  .wide-image-dark {
+    position: relative;
+
+
+    &::before {
+      content: ' ';
+      position: absolute;
+      top: $fourHundredTwenty;
+      bottom: $zero;
+      right: $fifty;
+      left: $zero;
+      transform: skewY($skewY) scaleY($scaleY);
+      background-color: $bgDark;
+    }
+
+    &::after {
+      content: ' ';
+      position: absolute;
+      top: $fourHundredTwenty;
+      bottom: $zero;
+      right: $zero;
+      left: $fifty;
+      transform: skewY(-$skewY) scaleY($scaleY);
+      background-color: $bgDark;
+    }
+
+  }
+
+
+
+
+
+}

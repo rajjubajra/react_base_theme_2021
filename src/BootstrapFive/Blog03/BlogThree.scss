@@ -1,0 +1,71 @@
+.blog-three {
+
+  @import './Sass/fontSize';
+
+  .basetheme-black-white {
+    @import './components/ColourMode/Basetheme-black-white';
+    background-color: #FFFFFF !important;
+  }
+
+  .basetheme-dark {
+    @import './components/ColourMode/Basetheme-dark';
+    background-color: #212529 !important;
+  }
+
+  .basetheme-light {
+    @import './components/ColourMode/Basetheme-light';
+    background-color: #E9ECEF !important;
+  }
+
+  /**NOTE: Responsive FONT-SIZE is defined on 'Basetheme.scss' file **/
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 200 !important;
+    letter-spacing: 0.02rem;
+  }
+
+  p,
+  a,
+  section,
+  div {
+    font-weight: 100 !important;
+    letter-spacing: 0.02rem;
+  }
+
+  .button {
+    font-size: 1rem;
+    font-weight: 100;
+    text-decoration: none !important;
+    margin: 10px 0px;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    text-transform: uppercase;
+  }
+
+  .big-first-letter::first-letter {
+    font-size: 5rem;
+  }
+
+
+  .btn-light {
+    background-color: #ccc !important;
+    color: #000000 !important;
+    border: 1px solid #ccc !important;
+  }
+
+  .btn-light:hover {
+    background-color: rgb(116, 115, 115) !important;
+    color: #fff !important;
+    transition: background-color 0.2s linear;
+  }
+
+
+
+
+
+
+}

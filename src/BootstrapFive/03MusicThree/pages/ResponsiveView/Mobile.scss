@@ -1,0 +1,69 @@
+$width: 383px;
+$height: 799px;
+
+.mobile {
+  margin-top: 100px;
+
+  .mobile-horizontal {
+    margin: 100px 0px;
+    position: relative;
+    width: $width;
+    height: $height;
+    padding: 117px 0px;
+
+    div {
+      display: flex;
+      justify-content: center;
+    }
+
+    &::before {
+      content: '';
+      background: url(https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/iPhone5_0.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: $width;
+      height: $height;
+      display: block;
+      background-color: #ddd;
+    }
+  }
+
+
+  .mobile-verticle {
+    margin-bottom: 100px;
+    position: relative;
+    width: $height;
+    height: $width;
+
+    div {
+      position: relative;
+      top: 159px;
+      left: 103px;
+    }
+
+    &::before {
+      content: '';
+      background: url(https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/iPhone5_0.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: absolute;
+      transform: rotate(90deg);
+      top: -80px;
+      left: 200px;
+      width: $width;
+      height: $height;
+      display: block;
+      background-color: #ddd;
+    }
+
+
+  }
+
+
+
+}

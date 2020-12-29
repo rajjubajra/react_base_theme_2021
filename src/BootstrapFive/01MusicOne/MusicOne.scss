@@ -1,0 +1,141 @@
+@keyframes fadeTransition {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blurTransition {
+  0% {
+    opacity: 0;
+    filter: blur(5px);
+  }
+
+  100% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+
+@keyframes DropAnimation {
+  0% {
+    opacity: 0;
+    position: relative;
+    top: -100px;
+  }
+
+  50% {
+    opacity: 0.5;
+    position: relative;
+    top: -60px;
+  }
+
+  100% {
+    opacity: 1;
+    position: relative;
+    top: 0px
+  }
+}
+
+
+.music-one {
+
+  @import './Sass/fontSize';
+
+  /** PAGE TRANSITION ANIMATION */
+  animation: fadeTransition 0.4s linear;
+
+  img {
+    animation-delay: 0.5s;
+    animation: blurTransition 0.5s linear;
+  }
+
+  .drop {
+    animation: DropAnimation 2s linear;
+  }
+
+  .animationDelayOne {
+    animation-delay: 2.5s;
+  }
+
+  .animationDelayTwo {
+    animation-delay: 3s;
+  }
+
+  .animationDelayThree {
+    animation-delay: 4s;
+  }
+
+
+  /** DYANAMIC PAGE COLOUR */
+
+
+  .basetheme-black-white {
+    @import './components/ColourMode/Basetheme-black-white';
+    background-color: #FFFFFF !important;
+
+    img {
+      filter: grayscale(100%) !important;
+    }
+  }
+
+  .basetheme-dark {
+    @import './components/ColourMode/Basetheme-dark';
+    background-color: #1a2e42 !important;
+  }
+
+  .basetheme-light {
+    @import './components/ColourMode/Basetheme-light';
+    background-color: #E9ECEF !important;
+  }
+
+  /**NOTE: Responsive FONT-SIZE is defined on 'Basetheme.scss' file **/
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 200 !important;
+    letter-spacing: 0.02rem;
+  }
+
+  p,
+  a,
+  label {
+    font-weight: 100 !important;
+    letter-spacing: 0.02rem;
+  }
+
+  button {
+    font-size: 1rem;
+    font-weight: 100;
+    text-decoration: none !important;
+    margin: 10px 0px;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .btn {
+    border: 1px solid #ddd;
+    border-radius: 0px;
+
+    &:hover {
+      background-color: #888888;
+      color: #000000;
+      transition: background-color 2s;
+    }
+  }
+
+
+  select,
+  input,
+  textarea,
+  button {
+    border-radius: 0px;
+  }
+
+}

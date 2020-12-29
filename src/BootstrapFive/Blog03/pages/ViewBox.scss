@@ -1,0 +1,19 @@
+.blog-three {
+
+  .view-box {
+    .btn-read-more {
+      background-color: #ccc !important;
+      color: #000000 !important;
+      border: 1px solid #ccc !important;
+      padding: 10px 20px;
+    }
+
+    .btn-read-more:hover {
+      background-color: rgb(116, 115, 115) !important;
+      color: #fff !important;
+      transition: background-color 0.2s linear;
+    }
+
+  }
+
+}

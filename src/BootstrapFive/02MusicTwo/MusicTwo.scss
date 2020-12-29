@@ -1,0 +1,93 @@
+@keyframes fadeTransition {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blurTransition {
+  0% {
+    filter: blur(5px);
+  }
+
+  100% {
+    filter: blur(0px);
+  }
+}
+
+.music-two {
+
+  @import './Sass/fontSize';
+
+  /** PAGE TRANSITION ANIMATION */
+  animation: fadeTransition 0.5s linear;
+
+  img {
+    animation-delay: 0.5s;
+    animation: blurTransition 0.5s linear;
+  }
+
+
+  /** DYANAMIC PAGE COLOUR */
+  .basetheme-black-white {
+    @import './components/ColourMode/Basetheme-black-white';
+    background-color: #FFFFFF !important;
+
+    img {
+      filter: grayscale(100%);
+    }
+  }
+
+  .basetheme-dark {
+    @import './components/ColourMode/Basetheme-dark';
+    background-color: #212529 !important;
+  }
+
+  .basetheme-light {
+    @import './components/ColourMode/Basetheme-light';
+    background-color: #E9ECEF !important;
+  }
+
+  /**NOTE: Responsive FONT-SIZE is defined on 'Basetheme.scss' file **/
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 200 !important;
+    letter-spacing: 0.02rem;
+  }
+
+  p,
+  a {
+    font-weight: 100 !important;
+    letter-spacing: 0.02rem;
+  }
+
+  button.btn {
+    font-weight: 100;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    border: 1px solid #ccc;
+    letter-spacing: 0.05rem;
+
+    &:hover {
+      background-color: #444444;
+      color: #fff;
+      transition: background-color 2s;
+
+    }
+  }
+
+  button,
+  select,
+  input,
+  textarea {
+    border-radius: 0px;
+  }
+
+}

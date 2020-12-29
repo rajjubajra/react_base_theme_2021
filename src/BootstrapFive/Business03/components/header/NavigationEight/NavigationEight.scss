@@ -1,0 +1,121 @@
+@import '../../ColourMode/colour-font';
+
+
+.navigation-eight {
+
+  .desktop {
+    .link-item {
+      width: 140px;
+      text-align: center;
+      height: 30px;
+      margin-top: 20px;
+
+      a {
+        text-decoration: none;
+        position: relative;
+
+        &::before {
+          content: ' ';
+          width: 0px;
+          height: 30px;
+          position: absolute;
+          display: block;
+          z-index: 1;
+          left: -27px;
+        }
+
+        &:hover {
+
+          &::before {
+            content: ' ';
+            width: 100px;
+            height: 30px;
+            border-bottom: 2px solid $font-lighter;
+            position: absolute;
+            display: block;
+            z-index: 1;
+            left: -27px;
+            transition: width 0.5s linear;
+          }
+
+        }
+      }
+
+
+      title {
+        div {
+
+          text-align: center;
+
+          p.singature-small {
+            font-family: 'Allura', cursive;
+            font-size: 2rem !important;
+            transform: scaleY(1.5);
+            letter-spacing: 0.3rem;
+          }
+        }
+      }
+
+
+    }
+  }
+
+
+  .mobile {
+    .link-item {
+      width: 140px;
+      height: 28px;
+      margin: 4px 0px;
+      list-style: none;
+
+
+      a {
+        text-decoration: none;
+        position: relative;
+
+        &::before {
+          content: ' ';
+          width: 0px;
+          height: 24px;
+          position: absolute;
+          display: block;
+          z-index: 1;
+        }
+
+        &:hover {
+          &::before {
+            content: ' ';
+            width: 80px;
+            height: 24px;
+            border-bottom: 2px solid $font-lighter;
+            position: absolute;
+            display: block;
+            z-index: 1;
+            transition: width 0.5s linear;
+          }
+
+        }
+      }
+
+
+      title {
+        div {
+
+          text-align: center;
+
+          p.singature-small {
+            font-family: 'Allura', cursive;
+            font-size: 2rem !important;
+            transform: scaleY(1.5);
+            letter-spacing: 0.3rem;
+          }
+        }
+      }
+
+
+    }
+  }
+
+
+
+}

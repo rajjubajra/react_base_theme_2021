@@ -1,0 +1,42 @@
+.blog-four {
+
+  .bg-line-thick {
+    position: relative;
+
+    &::before {
+      content: ' ';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 70%;
+      border-left: 1px solid #cccccc26;
+      background-color: #2125290d;
+    }
+  }
+
+  .bg-line-narrow {
+    position: relative;
+
+    &::before {
+      content: ' ';
+      position: absolute;
+      top: 0px;
+      bottom: 25px;
+      left: 0;
+      right: 80%;
+      transform: translateX(-15px);
+      z-index: 0;
+      background-image: linear-gradient(100deg, #5858581a, #cccccc00, #fff0);
+      border-bottom: 1px solid #dddddd9e;
+    }
+  }
+
+  .popular-blog-landing {
+    a {
+      position: absolute;
+      right: 15px;
+    }
+  }
+
+}
