@@ -26,6 +26,23 @@
     background-color: $background-light !important;
   }
 
+  input,
+  textarea,
+  button,
+  select {
+    border-radius: 0px;
+  }
+
+  .btn {
+    background-color: #fafafa;
+    color: #000000;
+    border: 1px solid #99999987;
+
+    &:hover {
+      background-color: #dddddd;
+      transition: background-color 1s linear;
+    }
+  }
 
 
 }

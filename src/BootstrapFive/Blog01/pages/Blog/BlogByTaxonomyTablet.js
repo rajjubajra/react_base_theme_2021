@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import PopularBlog from '../PopularBlog/PopularBlog';
+//import PopularBlog from '../PopularBlog/PopularBlog';
 import ViewBox from '../ViewBox';
 import YearMonthDrops from './Form/YearMonthDrops';
 import BoxArrowInLeft from '../../components/Icon/BoxArrowInLeft';
@@ -42,7 +42,7 @@ function BlogByTaxonomyTablet(props) {
 
             {/** COLUMN TITLE  AND YEAR MONTH SELECTION FORM */}
             <div className="row justify-content-center">
-              <div className="col-md-11 d-flex justify-content-between">
+              <div className="col-md-10 d-flex justify-content-between">
                 <h4 className="text-uppercase">{props.taxoName}</h4>
                 <YearMonthDrops />
               </div>
@@ -54,7 +54,7 @@ function BlogByTaxonomyTablet(props) {
                 props.fetched
                   ? props.slicedData.map(item => {
                     return <section
-                      style={{ margin: "0px 50px 0px 60px" }}
+                      style={{ margin: "0px 10px 0px 10px" }}
                       key={item.nid}>
                       <ViewBox
                         nid={item.nid}
@@ -73,19 +73,21 @@ function BlogByTaxonomyTablet(props) {
         </div>
 
         {/** PAGE NAVIGATIONS */}
-        <div className="row justify-content-center mt-4 mb-5">
-          {
-            <span onClick={() => props.prevPage()}><BoxArrowInLeft /></span>
-          }
+        <div className="row">
+          <div className="d-flex justify-content-center mt-4 mb-5">
+            {
+              <span onClick={() => props.prevPage()}><BoxArrowInLeft /></span>
+            }
 
-          <p className="ml-5 mr-5">
-            Page  -  {(props.pager + props.pageGap) / props.pageGap}
-            <span className="small-font ml-2">[{props.dataLength} - {props.pager}]</span>
-          </p>
+            <p className="ml-5 mr-5">
+              Page  -  {(props.pager + props.pageGap) / props.pageGap}
+              <div className="small-font ml-2">[{props.dataLength} - {props.pager}]</div>
+            </p>
 
-          { /** Page gap defined in drupal view is 10 */
-            <span onClick={() => props.nextPage()}><BoxArrowInRight /></span>
-          }
+            { /** Page gap defined in drupal view is 10 */
+              <span onClick={() => props.nextPage()}><BoxArrowInRight /></span>
+            }
+          </div>
         </div>
 
       </div>

@@ -108,19 +108,19 @@ function Blog() {
           dataLength > 0 &&
           <div
             style={{ position: "relative", zIndex: 10 }}
-            className="row justify-content-center mt-4 pb-5">
-            {
-              <span onClick={() => prevPage()}><BoxArrowInLeft /></span>
-            }
-
-            <p className="ml-5 mr-5">
-              Page  -  {(pager + pageGap) / pageGap}
-              <span className="small-font ml-2">[{dataLength} - {pager}]</span>
-            </p>
-
-            { /** Page gap defined in drupal view is 10 */
-              <span onClick={() => nextPage()}><BoxArrowInRight /></span>
-            }
+            className="row">
+            <div className="d-flex justify-content-center mt-4 pb-5">
+              {
+                <span onClick={() => prevPage()}><BoxArrowInLeft /></span>
+              }
+              <div className="ml-5 mr-5">
+                Page  -  {(pager + pageGap) / pageGap}
+                <div className="small-font ml-2">[{dataLength} - {pager}]</div>
+              </div>
+              { /** Page gap defined in drupal view is 10 */
+                <span onClick={() => nextPage()}><BoxArrowInRight /></span>
+              }
+            </div>
           </div>
         }
 

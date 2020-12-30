@@ -145,7 +145,9 @@ const FormSix = () => {
             </div>
 
             <div className="form-group">
-              <button type="submit" className="btn btn-light" >
+              <button
+                type="submit"
+                className="px-4 mt-3 btn btn-light" >
                 Submit</button>
             </div>
 

@@ -24,12 +24,11 @@ function NavDesktop(props) {
     <div className="d-flex justify-content-between w-100">
 
       <div style={titleStyle}>
-        <h1>YW Blog One</h1>
+        <h1>YW Blog Four</h1>
         <div className="ml-2">
           <Link to={`/${pagelink.search}`}>
             <SearchIcon />
           </Link>
-
         </div>
       </div>
 

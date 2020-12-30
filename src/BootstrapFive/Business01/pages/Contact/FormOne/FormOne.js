@@ -96,7 +96,9 @@ function FormOne() {
                 onChange={(e) => setMessage(e.target.value)}
                 rows="4"></textarea>
             </div>
-            <button type="submit" className="btn btn-light">Submit</button>
+            <button
+              type="submit"
+              className="px-5 mt-2 btn btn-light">Submit</button>
           </form>
         </div>
       </div>

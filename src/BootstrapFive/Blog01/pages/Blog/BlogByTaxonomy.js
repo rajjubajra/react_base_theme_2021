@@ -108,7 +108,7 @@ function BlogByTaxonomy(props) {
         <NavigationOne />
 
 
-        <div className={`container-fluid mt-5 mb-5`}>
+        <div className={`container mt-5 mb-5`}>
           {/** MAIN TITLE AT TOP */}
           <div className="row">
             <div className="col">

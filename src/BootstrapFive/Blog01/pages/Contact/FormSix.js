@@ -149,7 +149,7 @@ const FormSix = () => {
               </textarea>
             </div>
 
-            <div className="form-group">
+            <div className="form-group mt-2">
               <button
                 type="submit"
                 className={`${variant === 'dark' ? "btn btn-dark" : "btn btn-light"}`} >

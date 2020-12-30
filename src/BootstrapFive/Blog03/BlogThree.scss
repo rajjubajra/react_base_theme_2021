@@ -60,9 +60,15 @@
   .btn-light:hover {
     background-color: rgb(116, 115, 115) !important;
     color: #fff !important;
-    transition: background-color 0.2s linear;
+    transition: background-color 1s linear;
   }
 
+  input,
+  textarea,
+  section,
+  button {
+    border-radius: 0px;
+  }
 
 
 

@@ -2,11 +2,16 @@ import React from 'react'
 import FooterNav from './FooterNav';
 import FormNine from '../SubscriptionForm/FormNine';
 
+
+
+
 function Footer() {
 
 
   return (
-    <footer className="pb-5">
+    <footer className="pb-5"
+      style={{ position: "relative", zIndex: "1" }}
+    >
       <div className="container mt-5 mb-5">
         {/** SUBSCRIPTION FORM */}
         <div className="row mt-5 mb-5">

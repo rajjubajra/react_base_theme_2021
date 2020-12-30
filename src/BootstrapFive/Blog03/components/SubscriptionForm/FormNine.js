@@ -10,13 +10,15 @@ function FormNine() {
 
         {/** DESKTOP */}
         <div className="col-lg-6 d-none d-lg-block d-xl-block">
-          <form className="form-inline mt-5 mb-5">
-            <input
-              style={{ width: "70%" }}
-              type="text"
-              className="form-control mb-2 mr-sm-2"
-              placeholder="Email" />
-            <button type="submit" className="btn btn-light mb-2">Subscribe</button>
+          <form className="form mt-5 mb-5">
+            <div className="d-flex justify-content-center">
+              <input
+                style={{ width: "70%" }}
+                type="text"
+                className="form-control me-2 mb-2 mr-sm-2"
+                placeholder="Email" />
+              <button type="submit" className="btn btn-light mb-2">Subscribe</button>
+            </div>
           </form>
         </div>
 

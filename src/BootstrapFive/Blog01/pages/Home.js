@@ -16,7 +16,6 @@ export default function Home() {
   //const ColourVariant = useSelector(state => state.reducerSelectColourMode.variant);
 
 
-
   return (
     <div className="blog-one">
       <div className={`${colourMode} pb-5`}>

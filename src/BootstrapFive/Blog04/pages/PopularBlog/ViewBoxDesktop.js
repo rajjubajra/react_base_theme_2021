@@ -57,11 +57,7 @@ function ViewBoxLanding(props) {
       </div>
 
       {/** view box footer */}
-      <div style={{
-        position: "absolute",
-        bottom: "35px",
-        width: "80%"
-      }}>
+      <div>
         <div className="d-flex w-100 justify-content-between">
           {/** FORMATED DATE  OR NOT FORMATTED DATE */}
           <div className="medium-font">

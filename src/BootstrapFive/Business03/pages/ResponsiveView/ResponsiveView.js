@@ -27,27 +27,24 @@ function ResponsiveView() {
     <div style={{ background: "#ddd" }}>
 
 
-
       <div className="container-fluid pb-5">
 
-        <div className="row justify-content-end py-5">
-          <Link
-            style={{
-              position: "fixed",
-              top: "100px",
-              right: "10px",
-              zIndex: "50"
-            }}
-            to={pagelink.home}><IconClose /></Link>
-        </div>
-
-        <div className="row justify-content-center my-5">
-          <h3>Responsive View</h3>
+        <div className="row my-5">
+          <div className="col d-flex justify-content-between">
+            <h3>Responsive View</h3>
+            <Link to={pagelink.home}><IconClose /></Link>
+          </div>
         </div>
 
         <div className="row">
-          <Ipad homepage={homepage} />
-          <Mobile homepage={homepage} />
+          <div className="d-flex justify-content-center">
+            <div>
+              <Ipad homepage={homepage} />
+              <Mobile homepage={homepage} />
+            </div>
+
+          </div>
+
         </div>
 
       </div>

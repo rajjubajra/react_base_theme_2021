@@ -1,8 +1,4 @@
 import React from 'react'
-import DangerouslySetInnerHtml from '../Utilities/DangerouslySetInnterHtml';
-import { DayMonthCommaYear } from '../Utilities/DateFormat';
-import { Link } from 'react-router-dom';
-import { pagelink } from '../../PageLink';
 import SecondBlockDesktop from './SecondBlockDesktop';
 import SecondBlockMobile from './SecondBlockMobile';
 
@@ -14,13 +10,6 @@ function SecondBlock(props) {
   //console.log(props.data.length && props.data);
 
 
-  const linkStyle = {
-    position: "absolute",
-    bottom: "5px",
-    right: "20px",
-    border: "1px solid #ccc",
-    padding: "3px 18px"
-  }
 
   return (
     <>

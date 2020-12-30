@@ -124,7 +124,7 @@ function Blog() {
 
 
 
-        <div className="container-fluid mt-5 mb-5">
+        <div className="container-fluid my-5">
 
           {/** TITLE ON MOBILE ONLY */}
           <div className="d-block d-md-none d-lg-none d-xl-none">
@@ -134,9 +134,6 @@ function Blog() {
               </div>
             </div>
           </div>
-
-
-
 
           <div className="row d-none d-lg-block d-xl-block">
             <BlogDesktop

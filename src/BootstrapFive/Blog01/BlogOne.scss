@@ -32,7 +32,9 @@
   p,
   a,
   section,
-  div {
+  div,
+  button,
+  label {
     font-weight: 100 !important;
     letter-spacing: 0.02rem;
   }
@@ -45,6 +47,24 @@
     padding: 10px 20px;
     border-bottom: 1px solid #ccc;
     text-transform: uppercase;
+  }
+
+  button,
+  input,
+  text-area,
+  section {
+    border-radius: 0px;
+  }
+
+  .btn {
+    border: 1px solid #dddddd;
+
+    &:hover {
+      background-color: #999999;
+      color: #000000;
+      transition: background-color 1s linear;
+    }
+
   }
 
 }

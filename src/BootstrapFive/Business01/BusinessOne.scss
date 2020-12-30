@@ -47,6 +47,25 @@
     text-transform: uppercase;
   }
 
+  .btn {
+    background-color: #dddddd;
+    color: #666;
+
+    &:hover {
+      background-color: #999999;
+      color: #333333;
+      transition: background-color 1s linear;
+    }
+
+  }
+
+  input,
+  textarea,
+  select,
+  button {
+    border-radius: 0px;
+  }
+
 
 
 }

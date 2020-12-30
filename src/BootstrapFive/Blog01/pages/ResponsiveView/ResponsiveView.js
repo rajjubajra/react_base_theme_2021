@@ -12,13 +12,15 @@ function ResponsiveView() {
   const [homepage, setHomepage] = useState('');
 
   useEffect(() => {
-    setHomepage(`${window.location.origin}/${pagelink.iframeVeiw}`);
+    setHomepage(`${window.location.origin}/${pagelink.iframeView}`);
   }, [])
+
+
+
 
 
   return (
     <div style={{ background: "#ddd" }}>
-
 
       <div className="container-fluid pb-5">
 

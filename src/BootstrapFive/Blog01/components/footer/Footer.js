@@ -21,18 +21,25 @@ function Footer() {
           </div>
 
           <div className="col-lg-11 col-md-11 col-sm-12">
-            <div className="row justify-content-center">
-              <h1>YW - Blog One</h1>
+            <div className="row">
+              <div className="d-flex justify-content-center">
+                <h1>YW - Blog One</h1>
+              </div>
+
             </div>
-            <div className="row justify-content-center">
-              <FooterNav />
+
+            <div className="row">
+              <div className="d-flex justify-content-center">
+                <FooterNav />
+              </div>
             </div>
+
             <div className="row justify-content-center">
               <div className="col-lg-8 col-md-8 col-sm-11">
                 <p className="medium-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam cupiditate tempore aliquam illo quasi! Fugit rem nemo numquam libero! Vitae quas alias itaque accusantium molestias sapiente sunt laborum odit voluptas.</p>
               </div>
-
             </div>
+
           </div>
 
         </div>

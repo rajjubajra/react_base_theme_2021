@@ -41,7 +41,7 @@ export const Contact = () => {
           </div>
         </div>
         <Footer />
-        <ContactBg />
+
       </div>
     </div>
   )

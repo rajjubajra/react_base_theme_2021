@@ -7,17 +7,17 @@ import { pagelink } from '../../PageLink';
 
 
 
+
 function SecondBlockDesktop(props) {
 
 
   const linkStyle = {
-    position: "absolute",
-    bottom: "5px",
-    right: "20px",
-    border: "1px solid #ccc",
+    border: "1px solid rgb(204, 204, 204)",
     padding: "0px 18px",
-    margin: "0px 20px"
-
+    width: "120px",
+    margin: "55px 0px",
+    position: "relative",
+    zIndex: "50"
   }
 
   const { nid, title, created, body } = props;
@@ -27,8 +27,6 @@ function SecondBlockDesktop(props) {
       <div className="col-lg-6 col-md-6 col-sm-10  mt-5 mb-5">
         <section style={{
           width: "100%",
-          position: "absolute",
-          bottom: "5px",
           display: "flex",
           flexDirection: "column",
           padding: "0px 20px"

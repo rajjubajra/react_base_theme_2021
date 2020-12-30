@@ -10,6 +10,7 @@ import BoxArrowInRight from '../../components/Icon/BoxArrowInRight';
 
 
 
+
 function BlogDesktop(props) {
 
   /** YEAR AND MONTH SELECTED FROM YearMonthDrops.js */
@@ -73,19 +74,22 @@ function BlogDesktop(props) {
         </div>
 
         {/** PAGE NAVIGATIONS */}
-        <div className="row justify-content-center mt-4 mb-5">
-          {
-            <span onClick={() => props.prevPage()}><BoxArrowInLeft /></span>
-          }
+        <div className="row mt-4 mb-5">
+          <div className="d-flex justify-content-center">
 
-          <p className="ml-5 mr-5">
-            Page  -  {(props.pager + props.pageGap) / props.pageGap}
-            <span className="small-font ml-2">[{props.dataLength} - {props.pager}]</span>
-          </p>
+            {
+              <span onClick={() => props.prevPage()}> <BoxArrowInLeft /> </span>
+            }
 
-          { /** Page gap defined in drupal view is 10 */
-            <span onClick={() => props.nextPage()}><BoxArrowInRight /></span>
-          }
+            <p className="ml-5 mr-5">
+              Page  -  {(props.pager + props.pageGap) / props.pageGap}
+              <div className="small-font ml-2"> [{props.dataLength} - {props.pager}] </div>
+            </p>
+
+            { /** Page gap defined in drupal view is 10 */
+              <span onClick={() => props.nextPage()}> <BoxArrowInRight /> </span>
+            }
+          </div>
         </div>
 
       </div>

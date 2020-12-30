@@ -27,8 +27,6 @@ function SecondBlockMobile(props) {
         <div className="col-sm-10  mt-5">
           <section style={{
             width: "100%",
-            position: "absolute",
-            bottom: "5px",
             display: "flex",
             flexDirection: "column",
             padding: "0px 20px"

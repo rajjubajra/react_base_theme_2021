@@ -12,7 +12,7 @@ function ResponsiveView() {
   const [homepage, setHomepage] = useState('');
 
   useEffect(() => {
-    setHomepage(`${window.location.origin}/${pagelink.iframeVeiw}`);
+    setHomepage(`${window.location.origin}/${pagelink.iframeView}`);
   }, [])
 
 

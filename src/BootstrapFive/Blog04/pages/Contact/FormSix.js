@@ -165,7 +165,7 @@ const FormSix = () => {
             <div className="form-group">
               <button
                 type="submit"
-                className={`${variant === 'dark' ? "btn btn-dark" : "btn btn-light"}`} >
+                className={`px-5 mt-3 ${variant === 'dark' ? "btn btn-dark" : "btn btn-light"}`} >
                 Submit</button>
             </div>
 

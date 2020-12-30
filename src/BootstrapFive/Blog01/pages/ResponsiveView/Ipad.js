@@ -11,7 +11,7 @@ function Ipad(props) {
   const width = "768px";
   const height = "1024px";
 
-
+  console.log("HOME URL", homepage);
 
   return (
     <div className="container Ipad">

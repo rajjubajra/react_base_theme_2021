@@ -10,7 +10,7 @@ export function HomeDesktop() {
 
 
   return (
-    <div className="container-fluid mt-5">
+    <div className="container-fluid mt-5 mx-5">
 
       <div className="row">
         <div className="col-lg-2">

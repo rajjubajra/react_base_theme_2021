@@ -58,7 +58,7 @@ function BlogMobile(props) {
         </div>
 
         <div className="row justify-content-center">
-          <div className={`${view === 0 ? 'd-block' : 'd-none'}`}>
+          <div className={`col ${view === 0 ? 'd-block' : 'd-none'}`}>
             <YearMonthDrops />
           </div>
         </div>
@@ -66,7 +66,9 @@ function BlogMobile(props) {
 
 
         <div className={`row ${view === 2 ? 'd-block' : 'd-none'}`}>
-          <Taxonomy />
+          <div className="col">
+            <Taxonomy />
+          </div>
         </div>
 
         {/** ALL BLOGS  LISTING */}
@@ -98,19 +100,22 @@ function BlogMobile(props) {
 
 
         {/** PAGE NAVIGATIONS */}
-        <div className={`${view === 0 ? 'flex' : 'd-none'} row justify-content-center mt-4 mb-5`}>
-          {
-            <span onClick={() => props.prevPage()}><BoxArrowInLeft /></span>
-          }
+        <div className={`${view === 0 ? 'flex' : 'd-none'} row `}>
+          <div className="col d-flex justify-content-center mt-4 mb-5">
+            {
+              <span onClick={() => props.prevPage()}><BoxArrowInLeft /></span>
+            }
 
-          <p className="ml-5 mr-5">
-            Page  -  {(props.pager + props.pageGap) / props.pageGap}
-            <span className="small-font ml-2">[{props.dataLength} - {props.pager}]</span>
-          </p>
+            <div className="ml-5 mr-5">
+              Page  -  {(props.pager + props.pageGap) / props.pageGap}
+              <p className="small-font ml-2">
+                [{props.dataLength} - {props.pager}]</p>
+            </div>
 
-          { /** Page gap defined in drupal view is 10 */
-            <span onClick={() => props.nextPage()}><BoxArrowInRight /></span>
-          }
+            { /** Page gap defined in drupal view is 10 */
+              <span onClick={() => props.nextPage()}><BoxArrowInRight /></span>
+            }
+          </div>
         </div>
 
       </div>

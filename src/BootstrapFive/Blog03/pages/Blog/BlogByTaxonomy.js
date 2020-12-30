@@ -108,7 +108,7 @@ function BlogByTaxonomy(props) {
         <NavigationOne />
 
 
-        <div className={`container-fluid mt-5 mb-5`}>
+        <div className={`container-fluid my5`}>
 
           {/** TITLE ON MOBILE ONLY */}
           <div className="d-block d-md-none d-lg-none d-xl-none">
@@ -122,45 +122,51 @@ function BlogByTaxonomy(props) {
           {/** BLOG */}
           {/** DESKTOP VIEW */}
           <div className="row blog-by-taxonomy d-none d-lg-block d-xl-block">
-            <BlogByTaxonomyDesktop
-              taxoName={taxoName}
-              fetched={fetched}
-              slicedData={slicedData}
-              pager={pager}
-              pageGap={pageGap}
-              dataLength={dataLength}
-              prevPage={prevPage}
-              nextPage={nextPage}
-              LoadingMessage={LoadingMessage}
-            />
+            <div className="col">
+              <BlogByTaxonomyDesktop
+                taxoName={taxoName}
+                fetched={fetched}
+                slicedData={slicedData}
+                pager={pager}
+                pageGap={pageGap}
+                dataLength={dataLength}
+                prevPage={prevPage}
+                nextPage={nextPage}
+                LoadingMessage={LoadingMessage}
+              />
+            </div>
           </div>
           {/** TABLET VIEW */}
           <div className="row blog-by-taxonomy d-none d-md-block d-lg-none">
-            <BlogByTaxonomyTablet
-              taxoName={taxoName}
-              fetched={fetched}
-              slicedData={slicedData}
-              pager={pager}
-              pageGap={pageGap}
-              dataLength={dataLength}
-              prevPage={prevPage}
-              nextPage={nextPage}
-              LoadingMessage={LoadingMessage}
-            />
+            <div className="col">
+              <BlogByTaxonomyTablet
+                taxoName={taxoName}
+                fetched={fetched}
+                slicedData={slicedData}
+                pager={pager}
+                pageGap={pageGap}
+                dataLength={dataLength}
+                prevPage={prevPage}
+                nextPage={nextPage}
+                LoadingMessage={LoadingMessage}
+              />
+            </div>
           </div>
           {/** MOBILE VIEW */}
           <div className="row blog-by-taxonomy d-block d-md-none d-lg-none d-xl-none">
-            <BlogByTaxonomyMobile
-              taxoName={taxoName}
-              fetched={fetched}
-              slicedData={slicedData}
-              pager={pager}
-              pageGap={pageGap}
-              dataLength={dataLength}
-              prevPage={prevPage}
-              nextPage={nextPage}
-              LoadingMessage={LoadingMessage}
-            />
+            <div className="col">
+              <BlogByTaxonomyMobile
+                taxoName={taxoName}
+                fetched={fetched}
+                slicedData={slicedData}
+                pager={pager}
+                pageGap={pageGap}
+                dataLength={dataLength}
+                prevPage={prevPage}
+                nextPage={nextPage}
+                LoadingMessage={LoadingMessage}
+              />
+            </div>
           </div>
         </div>
 

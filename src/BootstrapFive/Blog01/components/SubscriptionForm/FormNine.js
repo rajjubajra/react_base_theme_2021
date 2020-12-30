@@ -16,15 +16,15 @@ function FormNine() {
 
         {/** DESKTOP */}
         <div className="col-lg-6 d-none d-lg-block d-xl-block">
-          <form className="form-inline mt-5 mb-5">
+          <form className="row row-cols-lg-auto g-3 align-items-center mt-5 mb-5">
             <input
               style={{ width: "70%" }}
               type="text"
-              className="form-control mb-2 mr-sm-2"
+              className="form-control me-1"
               placeholder="Email" />
             <button
               type="submit"
-              className={`${variant === 'dark' ? "btn btn-dark" : "btn btn-light"} mb-2 w-100"`}>Subscribe</button>
+              className={`${variant === 'dark' ? "btn btn-dark" : "btn btn-light"}  w-100"`}>Subscribe</button>
           </form>
         </div>
 

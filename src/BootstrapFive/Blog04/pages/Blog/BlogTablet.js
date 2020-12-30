@@ -116,21 +116,22 @@ function BlogTablet(props) {
 
 
         {/** PAGE NAVIGATIONS */}
-        <div className={`${view === 0 ? 'd-flex' : 'd-none'} row justify-content-center mt-4 mb-5`}>
+        <div className={`${view === 0 ? 'd-flex' : 'd-none'} row `}>
+          <div className="d-flex justify-content-center mt-4 mb-5">
+            {
+              <span onClick={() => props.prevPage()}><BoxArrowInLeft /></span>
+            }
 
-          {
-            <span onClick={() => props.prevPage()}><BoxArrowInLeft /></span>
-          }
+            <div className="ml-5 mr-5">
+              Page  -  {(props.pager + props.pageGap) / props.pageGap}
+              <p className="small-font ml-2">
+                [{props.dataLength} - {props.pager}]</p>
+            </div>
 
-          <p className="ml-5 mr-5">
-            Page  -  {(props.pager + props.pageGap) / props.pageGap}
-            <span className="small-font ml-2">[{props.dataLength} - {props.pager}]</span>
-          </p>
-
-          { /** Page gap defined in drupal view is 10 */
-            <span onClick={() => props.nextPage()}><BoxArrowInRight /></span>
-          }
-
+            { /** Page gap defined in drupal view is 10 */
+              <span onClick={() => props.nextPage()}><BoxArrowInRight /></span>
+            }
+          </div>
         </div>
 
       </div>

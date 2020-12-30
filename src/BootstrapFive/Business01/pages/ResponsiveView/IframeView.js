@@ -30,7 +30,7 @@ export default function Home() {
 
       <div className={className}>
         <ColourMode />
-        <RapsNavIcon />
+
         <NavigationOne />
 
 
