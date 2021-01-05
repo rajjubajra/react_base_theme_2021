@@ -10,7 +10,7 @@ function SocialMediaLinks() {
   }
 
   return (
-    <div className="col d-flex flex-wrap justify-content-center">
+    <div className="d-flex flex-wrap justify-content-center">
       <span className="badge">
         <Link style={styleIcon} to="#"><img src="https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/facebook.svg" alt="facebook-icon" /></Link>
       </span>

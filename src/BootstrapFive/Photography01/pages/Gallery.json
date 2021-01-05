@@ -1,0 +1,182 @@
+[
+  {
+    "category": "travel",
+    "id": 1,
+    "title": "quidem molestiae enim",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/ama-dablam-2064522_1280.jpg"
+  },
+  {
+    "category": "travel",
+    "id": 2,
+    "title": "sunt qui excepturi placeat culpa",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/architecture-1432614_1280.jpg"
+  },
+  {
+    "category": "travel",
+    "id": 3,
+    "title": "omnis laborum odio",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/bus-84711_1280.jpg"
+  },
+  {
+    "category": "travel",
+    "id": 4,
+    "title": "non esse culpa molestiae omnis sed optio",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/candles-1658811_1280.jpg"
+  },
+  {
+    "category": "travel",
+    "id": 5,
+    "title": "eaque aut omnis a",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/nepal-1972518_1280.jpg"
+  },
+  {
+    "category": "travel",
+    "id": 6,
+    "title": "natus impedit quibusdam illo est",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/tibetan-prayer-flags-1384193_1280.jpg"
+  },
+  {
+    "category": "travel",
+    "id": 7,
+    "title": "quibusdam autem aliquid et et quia",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/prayer-wheel-5790077_1280.jpg"
+  },
+  {
+    "category": "travel",
+    "id": 8,
+    "title": "qui fuga est a eum",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/holyrood-park-edinburgh-1252851_1280.jpg"
+  },
+  {
+    "category": "travel",
+    "id": 9,
+    "title": "saepe unde necessitatibus rem",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/greenwich-5049754_1280.jpg"
+  },
+  {
+    "category": "travel",
+    "id": 10,
+    "title": "distinctio laborum qui",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/temple-5790023_1280.jpg"
+  },
+  {
+    "category": "food",
+    "id": 11,
+    "title": "quam nostrum impedit mollitia quod et dolor",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/bakery-791748_1280.jpg"
+  },
+  {
+    "category": "food",
+    "id": 12,
+    "title": "consequatur autem doloribus natus consectetur",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/milk-1887237_1280.jpg"
+  },
+  {
+    "category": "food",
+    "id": 13,
+    "title": "ab rerum non rerum consequatur ut ea unde",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/background-906135_1280.jpg"
+  },
+  {
+    "category": "food",
+    "id": 14,
+    "title": "ducimus molestias eos animi atque nihil",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/food-photography-2610863_1280.jpg"
+  },
+  {
+    "category": "food",
+    "id": 15,
+    "title": "ut pariatur rerum ipsum natus repellendus praesentium",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/noodles-2150272_1280.jpg"
+  },
+  {
+    "category": "food",
+    "id": 16,
+    "title": "voluptatem aut maxime inventore autem magnam atque repellat",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/brownie-3042106_1280.jpg"
+  },
+  {
+    "category": "food",
+    "id": 17,
+    "title": "aut minima voluptatem ut velit",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/noodles-1632153_1280.jpg"
+  },
+  {
+    "category": "food",
+    "id": 18,
+    "title": "nesciunt quia et doloremque",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/yogurt-1442034_1280.jpg"
+  },
+  {
+    "category": "food",
+    "id": 19,
+    "title": "velit pariatur quaerat similique libero omnis quia",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/milk-5267300_640.jpg"
+  },
+  {
+    "category": "food",
+    "id": 20,
+    "title": "voluptas rerum iure ut enim",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/vegetables-1584999_1280.jpg"
+  },
+  {
+    "category": "product",
+    "id": 21,
+    "title": "repudiandae voluptatem optio est consequatur rem in temporibus et",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/eye-1173863_1280.jpg"
+  },
+  {
+    "category": "product",
+    "id": 22,
+    "title": "et rem non provident vel ut",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/fashion-1284496_1280.jpg"
+  },
+  {
+    "category": "product",
+    "id": 23,
+    "title": "incidunt quisquam hic adipisci sequi",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/dumbbells-2465478_1280.jpg"
+  },
+  {
+    "category": "product",
+    "id": 24,
+    "title": "dolores ut et facere placeat",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/jeans-5394561_1280.jpg"
+  },
+  {
+    "category": "product",
+    "id": 25,
+    "title": "vero maxime id possimus sunt neque et consequatur",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/leather-shoes-2661249_1280.jpg"
+  },
+  {
+    "category": "product",
+    "id": 26,
+    "title": "quibusdam saepe ipsa vel harum",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/handicraft-4388501_1280.jpg"
+  },
+  {
+    "category": "product",
+    "id": 27,
+    "title": "id non nostrum expedita",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/shoes-505471_1280.jpg"
+  },
+  {
+    "category": "product",
+    "id": 28,
+    "title": "omnis neque exercitationem sed dolor atque maxime aut cum",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/shoes-584850_1280.jpg"
+  },
+  {
+    "category": "product",
+    "id": 29,
+    "title": "inventore ut quasi magnam itaque est fugit",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/lens-637558_1280.jpg"
+  },
+  {
+    "category": "product",
+    "id": 30,
+    "title": "tempora assumenda et similique odit distinctio error",
+    "image": "https://yellow-website.com/d8-react-base-theme-backend/sites/default/files/photo_placeholder/typewriter-1791834_1280.jpg"
+  }
+]

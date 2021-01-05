@@ -65,13 +65,7 @@ const data = [
     logo: "Client Eight",
     text: "Ratione in est id",
     alt: "logo"
-  },
-  {
-    id: 9,
-    logo: "Client Nine",
-    text: "Ratione in est id",
-    alt: "logo"
-  },
+  }
 ]
 
 
@@ -81,19 +75,23 @@ function Tools() {
   });
 
   return (
-    <div ref={refTool} className="tools mt-5">
-      <div className="row justify-content-center">
-        <Title title="Tools" />
+    <div ref={refTool} className="container tools mt-5">
+      <div className="row">
+        <div className="col">
+          <Title title="Tools" />
+        </div>
       </div>
-      <div className="row justify-content-center">
-        <div className="col-md-12 col-lg-12 col-xl-7">
-          <div className={`row ${refInView ? 'fade-in' : 'fade-out'} justify-content-center`}>
-            {
-              data.map((item, index) => {
-                return <Tool key={index} logo={item.logo} alt={item.alt} text={item.text} />
-              })
-            }
-          </div>
+
+      <div className="row justify-content-center my-5">
+
+        <div className={`${refInView ? 'fade-in' : 'fade-out'} row`}>
+          {
+            data.map((item, index) => {
+              return <div key={index} className="col-lg-3 col-md-4 col-sm-6">
+                <Tool logo={item.logo} alt={item.alt} text={item.text} />
+              </div>
+            })
+          }
         </div>
 
         <div className="col-md-6 col-lg-6 col-xg-3">

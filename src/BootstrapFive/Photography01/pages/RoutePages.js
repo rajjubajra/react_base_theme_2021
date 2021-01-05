@@ -9,7 +9,7 @@ import { pagelink } from '../PageLink';
 function RoutePages() {
   return (
     <>
-      <Route exact path={`/${pagelink.home}`} component={Home} />
+      <Route exact path={`/${pagelink.home}/:catId`} component={Home} />
       <Route exact path={`/${pagelink.about}`} component={About} />
       <Route exact path={`/${pagelink.contact}`} component={Contact} />
     </>

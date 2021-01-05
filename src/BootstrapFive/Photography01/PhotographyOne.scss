@@ -1,4 +1,4 @@
-.business-four {
+.photography-one {
 
 
   .basetheme-black-white {
@@ -28,19 +28,25 @@
   }
 
   p,
-  a {
+  a,
+  label,
+  button,
+  li {
     font-weight: 100 !important;
     letter-spacing: 0.02rem;
   }
 
-  .button {
-    font-size: 1rem;
-    font-weight: 100;
-    text-decoration: none !important;
-    margin: 10px 0px;
-    padding: 10px 20px;
-    border-bottom: 1px solid #ccc;
-    text-transform: uppercase;
+
+  input,
+  textarea,
+  button {
+    border-radius: 0px;
+  }
+
+  .btn {
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+    padding: 5px 25px;
   }
 
 }

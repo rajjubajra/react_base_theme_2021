@@ -95,25 +95,34 @@ function GroupItems() {
 
   const [viewData, setViewData] = useState(data);
 
+
+
   const groupname = useSelector(state => state.reducerSelectGroup.groupname);
 
   //  console.log('groupname', groupname);
 
   useEffect(() => {
-    setViewData(data.map(item => {
-      return groupname === 'all'
-        ? { ...item }
-        : item.itemGroup !== groupname ? { ...item, itemGroup: 'd-none' } : item
-    })
-    );
-  }, [groupname])
+    // setViewData(data.map(item => {
+    //   return groupname === 'all'
+    //     ? { ...item }
+    //     : item.itemGroup !== groupname ? { ...item, itemGroup: 'd-none' } : item
+    // })
+    // );
+    groupname === 'all'
+      ? setViewData(data)
+      : setViewData(data.filter(item => {
+        return groupname === item.itemGroup
+      }))
+
+
+  }, [groupname, viewData])
 
   let delay = 0;
 
 
 
   return (
-    <div className="card">
+    <div className="row">
       {
         viewData.map((item, index) => {
           return (

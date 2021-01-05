@@ -13,9 +13,7 @@ function AboutusImage() {
             maxWidth: "400px",
             width: "100%",
             margin: "0px auto",
-            paddingTop: "35%",
-            position: "absolute",
-            bottom: "0%"
+            paddingTop: "10%",
           }}
             src={image} alt="about-us" />
         </div>
@@ -28,8 +26,6 @@ function AboutusImage() {
             width: "100%",
             margin: "0px auto",
             paddingTop: "35%",
-            position: "absolute",
-            bottom: "0%"
           }}
             src={image} alt="about-us" />
         </div>

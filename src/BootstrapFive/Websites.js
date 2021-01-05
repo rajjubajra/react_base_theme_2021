@@ -78,9 +78,9 @@ const data = [
   },
   {
     id: 13,
-    title: "Business Four",
-    type: "Business",
-    link: "/b4-business-four"
+    title: "Photograhy One",
+    type: "Photography/Art",
+    link: "/b5-photography-one/all"
   },
 
 

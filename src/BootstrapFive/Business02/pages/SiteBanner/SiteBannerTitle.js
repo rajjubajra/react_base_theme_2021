@@ -34,8 +34,8 @@ function SiteBannerTitle() {
           animationDelay: "2s"
         }}
           className="d-flex flex-rw flex-wrap justify-content-center">
-          <button className="btn btn-primary mr-1" variant="primary">Why me?</button>
-          <button className="btn btn-primary ml-1" variant="primary">Get Quote</button>
+          <button className="btn btn-primary me-1" variant="primary">Why me?</button>
+          <button className="btn btn-primary ms-1" variant="primary">Get Quote</button>
         </div>
       </div>
     </>

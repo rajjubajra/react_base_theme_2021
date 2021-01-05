@@ -1,11 +1,11 @@
 import React from 'react';
-import './BusinessFour.scss';
+import './PhotographyOne.scss';
 import { Provider } from 'react-redux'
 import { store } from './redux/store';
 import RoutePages from './pages/RoutePages';
 
 
-function BusinessFour() {
+function PhotographyOne() {
   return (
     <Provider store={store}>
       <RoutePages />
@@ -13,4 +13,4 @@ function BusinessFour() {
   )
 }
 
-export default BusinessFour
+export default PhotographyOne

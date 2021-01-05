@@ -8,12 +8,14 @@ import './Router.scss';
 import Websites from '../BootstrapFive/Websites';
 import BaseTheme from '../BootstrapFive/BaseTheme/BaseTheme';
 
-import YellowWebSiteZero from '../BootstrapFive/00YellowWebsiteZero/YellowWebsiteZero';
+
 
 import Copyright from '../BootstrapFive/Copyright/Copyright';
 import MusicRoute from './MusicRoute';
 import BlogRoute from './BlogRoute';
 import BusinessRoute from './BusinessRoute';
+import PhotographyRoute from './PhotographyRoute';
+import YellowWebsiteRoute from './YellowWebsiteRoute';
 
 
 const Router = () => {
@@ -30,14 +32,12 @@ const Router = () => {
         <BaseTheme />
       </Switch>
 
-      <Switch>
-        <YellowWebSiteZero />
-      </Switch>
 
-
+      <YellowWebsiteRoute />
       <MusicRoute />
       <BlogRoute />
       <BusinessRoute />
+      <PhotographyRoute />
 
 
 

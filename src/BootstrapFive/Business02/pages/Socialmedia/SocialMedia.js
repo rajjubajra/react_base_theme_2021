@@ -17,13 +17,13 @@ function SocialMedia(props) {
       flexDirection: "column",
       justifyContent: "center"
     }}>
-      <div className="justify-content-center">
+      <div className="ms-5 justify-content-center">
         <Title title="Follow us" />
       </div>
       <div className="text-align-center mt-5">
         <SocialMediaLinks />
         {/*
-         width exceed 100% need correction
+        width exceed 100% need correction
          <CircleBackground /> */}
       </div>
     </div>
