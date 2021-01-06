@@ -1,8 +1,8 @@
 import React from 'react';
 import './HomeDesktop.scss';
+import DangerouslySetInnerHtml from '../DangerouslySetInnterHtml';
 import { Link } from 'react-router-dom';
 import { pagelink } from '../../PageLink';
-import IntroBrief from './IntroBrief';
 
 
 
@@ -28,13 +28,25 @@ export default function HomeDesktop(props) {
             justifyContent: "center",
             alignItems: "center"
           }}>
-            <div>
 
-              <IntroBrief
-                title={title}
-                logoHorz={logoHorz}
-                logoHorzAlt={logoHorzAlt}
-                body={body} />
+            <div>
+              {/** TITLE */}
+              <h1 style={{
+                fontFamily: "'Mrs Saint Delafield', cursive",
+                transform: "scale(1.6) translate(46px, 10px)"
+              }}>{title}</h1>
+              {/*** LOGO */}
+              <div className="logo-h">
+                <img
+                  style={{ width: "100%", maxWidth: "300px", height: "auto" }}
+                  src={logoHorz}
+                  alt={logoHorzAlt} />
+              </div>
+
+              {/** BRIEF INTRO */}
+              <section className="body mt-5">
+                <DangerouslySetInnerHtml text={body} />
+              </section>
 
             </div>
           </div>

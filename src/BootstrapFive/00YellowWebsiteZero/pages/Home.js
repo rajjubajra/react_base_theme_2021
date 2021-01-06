@@ -9,6 +9,7 @@ import HomeTablet from './Home/HomeTablet';
 import HomeMobile from './Home/HomeMobile';
 
 
+
 export default function Home() {
 
   /** COLOUR MODE */
@@ -46,6 +47,11 @@ export default function Home() {
   const body = useSelector(state => state.reducerFetchData.body);
   const links = useSelector(state => state.reducerFetchData.links);
   const title = useSelector(state => state.reducerFetchData.title);
+
+  /** React-spring 
+   * animation */
+
+
 
   return (
     <div className='yellow-website-zero'>
