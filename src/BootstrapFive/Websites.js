@@ -11,6 +11,12 @@ const data = [
     link: "/base-theme"
   },
   {
+    id: "1a",
+    title: "React Spring",
+    type: "Test / Excersise",
+    link: "/test"
+  },
+  {
     id: 2,
     title: "Yellow Website Zero",
     type: "Profile",

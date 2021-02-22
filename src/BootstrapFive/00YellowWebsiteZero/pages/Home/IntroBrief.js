@@ -1,41 +1,32 @@
-import React, { useState } from 'react';
-import { useSpring, animated } from 'react-spring'
+import React from 'react';
 
 
-function IntroBrief() {
 
-  const items = [
-    {
-      id: 1,
-      text: 'one'
-    },
-    {
-      id: 2,
-      text: 'one'
-    },
-    {
-      id: 3,
-      text: 'one'
-    },
-    {
-      id: 4,
-      text: 'one'
-    }
+function IntroBrief(props) {
 
-  ]
 
-  const props = useSpring({
-    to: async (next, cancel) => {
-      await next({ opacity: 1, color: '#ffaaee' })
-      await next({ opacity: 0, color: 'rgb(14,26,19)' })
-    },
-    from: { opacity: 0, color: 'red' }
-  })
-
+  const { title, logoHorz, logoHorzAlt, body } = props
 
   return (
     <div>
-      <animated.div style={props}>I will Fade In</animated.div>
+      {/** TITLE */}
+      <h1 style={{
+        fontFamily: "'Mrs Saint Delafield', cursive",
+        transform: "scale(1.6) translate(46px, 10px)"
+      }}>{title}</h1>
+      {/*** LOGO */}
+      <div className="logo-h">
+        <img
+          style={{ width: "100%", maxWidth: "300px", height: "auto" }}
+          src={logoHorz}
+          alt={logoHorzAlt} />
+      </div>
+
+      {/** BRIEF INTRO */}
+      <section className="body mt-5">
+        <div dangerouslySetInnerHTML={{ __html: body }} />
+      </section>
+
     </div>
   )
 }

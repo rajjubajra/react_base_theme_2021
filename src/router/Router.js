@@ -4,6 +4,9 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 /** ROOT STYLE FILE */
 import './Router.scss';
 
+/** TEST */
+import Test from '../Test/Test';
+
 /** COMPONENTS */
 import Websites from '../BootstrapFive/Websites';
 import BaseTheme from '../BootstrapFive/BaseTheme/BaseTheme';
@@ -30,6 +33,10 @@ const Router = () => {
 
       <Switch>
         <BaseTheme />
+      </Switch>
+
+      <Switch>
+        <Route exact path="/test" component={Test} />
       </Switch>
 
 

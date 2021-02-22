@@ -4,6 +4,7 @@ import RepsNavIcon from '../ResponsiveView/RepsNavIcon';
 import { useSelector } from 'react-redux';
 import ColourMode from '../components/ColourMode/ColourMode';
 import PhotoPlaceholder from '../components/PhotoPlaceholder/PhotoPlaceholder';
+import Components from '../components/Components';
 
 
 export default function Home() {
@@ -22,8 +23,9 @@ export default function Home() {
 
       <div className="container mt-5">
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-12">
             <h1>Base Theme</h1>
+            <Components />
             <PhotoPlaceholder
               width="400px"
               height="300px"
