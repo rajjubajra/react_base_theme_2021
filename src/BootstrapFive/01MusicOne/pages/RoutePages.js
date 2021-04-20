@@ -74,6 +74,7 @@ function RoutePages() {
 
 
       <Route exact path={`/${pagelink.home}`} component={Home} />
+      <Route exact path={`/${pagelink.home_}`} component={Home} />
       <Route exact path={`/${pagelink.tour}`} component={Tour} />
       <Route exact path={`/${pagelink.tourDetails}/:nid`} component={TourDetails} />
       <Route exact path={`/${pagelink.about}`} component={About} />

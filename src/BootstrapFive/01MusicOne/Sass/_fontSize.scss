@@ -1,11 +1,11 @@
 /** RESPONSIVE FONT SIZE  WORK-OUT */
 h1 {
-  //font-size: 2.5rem ;
+  /**font-size: 2.5rem ; **/
   font-size: clamp(1.5rem, 5vw, 2.5rem) !important;
 }
 
 h2 {
-  //font-size: 2rem;
+  /** font-size: 2rem; */
   font-size: clamp(1rem, 5vw, 2rem) !important;
 }
 
@@ -14,24 +14,24 @@ h3 {
 }
 
 h4 {
-  //font-size: 1.5rem;
+  /** font-size: 1.5rem; */
   font-size: clamp(1rem 5vw, 1.5rem) !important;
 }
 
 h5 {
-  //font-size: 1.25rem;
+  /* font-size: 1.25rem; */
   font-size: clamp(0.9rem, 5vw, 1.25rem) !important;
 }
 
 h6 {
-  //font-size: 1rem;
+  /* font-size: 1rem; */
   font-size: clamp(0.8rem, 4vw, 1rem) !important;
 }
 
 p,
 .btn,
 label {
-  //font-size: 1rem;
+  /* font-size: 1rem; */
   font-size: clamp(0.75rem, 3vw, 1rem) !important;
 }
 
@@ -48,22 +48,22 @@ label {
 }
 
 .display-1 {
-  //font-size: 6rem;
+  /* font-size: 6rem; */
   font-size: clamp(1.2rem, 10vw, 6rem) !important;
 }
 
 .display-2 {
-  //font-size: 5.5rem;
+  /* font-size: 5.5rem; */
   font-size: clamp(1rem, 10vw, 5.5rem) !important;
 }
 
 .display-3 {
-  //font-size: 4.5rem;
+  /* font-size: 4.5rem; */
   font-size: clamp(1rem, 10vw, 4.5rem) !important;
 }
 
 .display-4 {
-  //font-size: 3.5rem;
+  /* font-size: 3.5rem; */
   font-size: clamp(0.9rem, 10vw, 3.5rem) !important;
 }
 

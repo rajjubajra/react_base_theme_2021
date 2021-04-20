@@ -1,9 +1,0 @@
-export const actionTypes = {
-
-  START_FETCHING: 'START_FETCHING',
-  FETCHED: 'FETCHED',
-  FETCH_ERROR: 'FETCH_ERROR',
-
-  CATEGORY: 'CATEGORY'
-
-}

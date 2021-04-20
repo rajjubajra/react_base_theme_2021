@@ -1,6 +1,7 @@
 
 export const pagelink = {
-  home: "b4MusicOne-home",
+  home: "/",
+  home_: "b4MusicOne-home",
   tour: "b4MusicOne-tour",
   about: "b4MusicOne-about",
   gallery: "b4MusicOne-gallery",
